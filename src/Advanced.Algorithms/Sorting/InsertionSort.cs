@@ -8,9 +8,7 @@ namespace Advanced.Algorithms.Sorting
     /// </summary>
     public class InsertionSort<T> where T : IComparable
     {
-        /// <summary>
-        /// Time complexity: O(n^2).
-        /// </summary>
+       ///testing123
         public static T[] Sort(T[] array, SortDirection sortDirection = SortDirection.Ascending)
         {
             var comparer = new CustomComparer<T>(sortDirection, Comparer<T>.Default);
