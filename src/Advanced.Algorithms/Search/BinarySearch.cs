@@ -2,6 +2,7 @@
 {
     /// <summary>
     /// A binary search algorithm implementation.
+    /// add a line to test
     /// </summary>
     public class BinarySearch
     {
